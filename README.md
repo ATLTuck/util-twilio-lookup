@@ -49,4 +49,4 @@ There's also a throttling mechanism so that the script doesn't send more request
 
 ## Authors
 
-* **Mark Shavers** - *Initial work* - [shavez00](https://github.com/shavez00)
+* **Mark Shavers** - *Initial work* - [shavez00](https://github.com/shavez00) - Number Formatting fix by @ATLTuck
