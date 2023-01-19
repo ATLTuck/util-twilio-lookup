@@ -25,7 +25,7 @@ This utility is run from the command line using node.  Your source file which wi
 
 The node script takes 3 arguments in order to execute.  The first argument is the source file.  The second argument is the destination file.  The third argument is the column number of where the phone numbers are located.
 
-This script will not transform phone numbers from the normal phone format (xxx) xxx-xxxx to the E.164 format (+1xxxxxxxxxx).  You must make sure that the phone numbers are in E.164 format or the script will fail.
+This script will not transform phone numbers from the normal phone format (xxx) xxx-xxxx to the E.164 format (+1xxxxxxxxxx).  You must make sure that the phone numbers are in E.164 format or the script will fail. Use formatter.py to parse the phone number field before continuing.
 
 You also need to save you Account SID and AUTH Token as enviornment varilables named $TWILIO_ACCOUNT_SID and $TWILIO_AUTH_TOKEN or the script will fail.
 
